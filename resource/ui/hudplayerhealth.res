@@ -5,8 +5,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-350"
-		"ypos"			"r150"
+		"xpos"			"60"
+		"ypos"			"r125"
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
@@ -61,7 +61,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"103"
+		"xpos"			"85"
 		"ypos"			"52"
 		"zpos"			"8"
 		"wide"			"51"
@@ -69,7 +69,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"left"	
+		"textAlignment"	"east"	
 		"font"			"VCR_OSD_Mono16"
 		"fgcolor"		"TanLight"
 	}
@@ -122,8 +122,6 @@
 		"Enabled"		"1"
 		"Image"			"../vgui/replay/thumbnails/red"
 		"scaleImage"	"1"	
-        "teambg_2"      "../hud/color_panel_red_opaque"
-        "teambg_3"      "../hud/color_panel_blu_opaque"
 	}
 	"ScanLines"
 	{
@@ -131,7 +129,7 @@
 		"fieldName"		"ScanLines"
 		"xpos"			"102"
 		"ypos"			"53"
-		"zpos"			"8"
+		"zpos"			"9"
 		"wide"			"36"
 		"tall"			"18"
 		"visible"		"1"
