@@ -53,7 +53,7 @@ Scheme
 		"BrightYellow"		"251 235 0 255"
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
-		"GreenSolid"		 "76 107 34 255"
+		"GreenSolid"		"76 107 34 255"
 		
 		"Black"				"46 43 42 255"
 		"TransparentBlack"	"0 0 0 196"
@@ -208,6 +208,14 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+        
+        
+        //custom colors
+        "MonitorGreen"      "9 241 44 255"
+        "MonitorDarkGreen"  "0 45 0 255"
+        "MonitorRed"        "241 9 44 255"
+        "MonitorDarkRed"    "45 0 0 255"
+        "MonitorOutline"    "54 50 49 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -3033,6 +3041,66 @@ Scheme
 		}
         
         // custom fonts
+        
+        "Blocks12"
+        {
+            "1"
+            {
+                "name"      "Blocks"
+				"tall"		"12"
+                "antialias" "0"
+            }
+        }
+        
+        "Blocks16"
+        {
+            "1"
+            {
+                "name"      "Blocks"
+				"tall"		"16"
+                "antialias" "0"
+            }
+        }
+        
+        "Blocks24"
+        {
+            "1"
+            {
+                "name"      "Blocks"
+				"tall"		"24"
+                "antialias" "0"
+            }
+        }
+        
+        "Blocks32"
+        {
+            "1"
+            {
+                "name"      "Blocks"
+				"tall"		"32"
+                "antialias" "0"
+            }
+        }
+        
+        "Blocks48"
+        {
+            "1"
+            {
+                "name"      "Blocks"
+				"tall"		"48"
+                "antialias" "0"
+            }
+        }
+        
+        "Blocks64"
+        {
+            "1"
+            {
+                "name"      "Blocks"
+				"tall"		"64"
+                "antialias" "0"
+            }
+        }
         
         "BM_Space12"
         {
@@ -6213,6 +6281,7 @@ Scheme
 		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
+		"18"		"resource/fonts/blocks.ttf"
         "20"
         {
             "font" "resource/fonts/bmspace.ttf"
