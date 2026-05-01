@@ -211,11 +211,15 @@ Scheme
         
         
         //custom colors
+        "MonitorOutline"    "54 50 49 255"
+        "MonitorWhite"      "241 241 241 255"
+        "MonitorDarkWhite"  "45 45 45 255"
+        "MonitorRed"        "241 44 9 255"
+        "MonitorDarkRed"    "45 0 0 255"
         "MonitorGreen"      "9 241 44 255"
         "MonitorDarkGreen"  "0 45 0 255"
-        "MonitorRed"        "241 9 44 255"
-        "MonitorDarkRed"    "45 0 0 255"
-        "MonitorOutline"    "54 50 49 255"
+        "MonitorBlue"       "44 9 241 255"
+        "MonitorDarkBlue"   "0 0 45 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
