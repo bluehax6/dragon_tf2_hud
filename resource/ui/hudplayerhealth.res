@@ -87,7 +87,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"	
 		"font"			"Blocks24"
-		"fgcolor"		"MonitorDarkGreen"
+		"fgcolor"		"MonitorDarkerGreen"
 	}
 	"PlayerStatusHealthZeros"
 	{
@@ -129,7 +129,7 @@
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
-        "fillcolor"     "MonitorDarkGreen"
+        "fillcolor"     "MonitorDarkerGreen"
 	}
 	"PlayerStatusHealthConsoleFlashRed"
 	{
@@ -143,7 +143,7 @@
         "Alpha"         "0"
 		"Visible"		"1"
 		"Enabled"		"1"
-		"fillcolor"		"MonitorDarkRed"
+		"fillcolor"		"MonitorDarkerRed"
 	}
 	"PlayerStatusHealthConsoleFlashWhite"
 	{
@@ -157,7 +157,7 @@
         "Alpha"         "0"
 		"Visible"		"1"
 		"Enabled"		"1"
-		"fillcolor"		"MonitorDarkWhite"
+		"fillcolor"		"MonitorDarkerWhite"
 	}
 	"PlayerStatusHealthScanLines"
 	{
