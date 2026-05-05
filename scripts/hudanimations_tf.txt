@@ -533,7 +533,7 @@ event ShowStuff
 	Animate	ChargeMeter2 	FgColor		"MonitorGreen"		Linear 0.0 0.0
 	Animate	ChargeMeter3 	FgColor		"MonitorGreen"		Linear 0.0 0.0
 	Animate	ChargeMeter4 	FgColor		"MonitorGreen"		Linear 0.0 0.0
-    RunEvent ShowStuffLoop 0.002
+    RunEvent ShowStuffLoop 0.001
 }
 
 event ShowStuffLoop
