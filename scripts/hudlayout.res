@@ -16,7 +16,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r165"
+		"xpos"	"r170"
 		"ypos"	"r60"
 		"wide"	"250"
 		"tall"	"120"
@@ -69,7 +69,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r165"
-		"ypos"			"r120"
+		"ypos"			"r60"
 		"wide"			"200"
 		"tall"			"100"
 	}
@@ -79,14 +79,14 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"
-		"ypos"			"r21"
+		"xpos"			"r88"
+		"ypos"			"r42"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"TransparentBlack"
 	}	
 
 	HudBowCharge
@@ -94,18 +94,16 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"-9999"
+		"ypos"			"-9999"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
+		"wide"			"0"
+		"wide_minmode"	"0"
 		"tall"			"8"
+        "visible"       "0"
+        "enabled"       "0"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"TransparentBlack"
 	}
 
 	HudFlameRocketCharge
@@ -227,13 +225,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
-		"ypos"		"r70"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
+		"xpos"		"10"
+		"ypos"		"r28"
 		"wide"		"500"
 		"tall"		"200"
-		"TextFont"	"Default"	[$X360]
 	}
 
 	CMainTargetID
@@ -1036,14 +1031,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"r174"
+		"ypos"			"r105"
+		"wide"	        "250"
+		"tall"	        "120"
 	}	
 
 	HudTeamGoal

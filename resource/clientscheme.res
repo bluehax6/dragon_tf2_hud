@@ -211,19 +211,7 @@ Scheme
         
         
         //custom colors
-        "MonitorOutline"        "54 50 49 255"
-        "MonitorWhite"          "241 241 241 255"
-        "MonitorDarkWhite"      "128 128 128 255"
-        "MonitorDarkerWhite"    "45 45 45 255"
-        "MonitorRed"            "241 44 9 255"
-        "MonitorDarkRed"        "128 0 0 255"
-        "MonitorDarkerRed"      "45 0 0 255"
-        "MonitorGreen"          "9 241 44 255"
-        "MonitorDarkGreen"      "0 128 0 255"
-        "MonitorDarkerGreen"    "0 45 0 255"
-        "MonitorBlue"           "44 9 241 255"
-        "MonitorDarkBlue"       "0 0 128 255"
-        "MonitorDarkerBlue"     "0 0 45 255"
+		"HUDSpectatorSolid"		"124 124 124 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -3050,6 +3038,16 @@ Scheme
         
         // custom fonts
         
+        "Blocks8"
+        {
+            "1"
+            {
+                "name"      "Blocks"
+				"tall"		"8"
+                "antialias" "0"
+            }
+        }
+        
         "Blocks12"
         {
             "1"
@@ -3106,6 +3104,16 @@ Scheme
             {
                 "name"      "Blocks"
 				"tall"		"64"
+                "antialias" "0"
+            }
+        }
+
+        "BM_Space8"
+        {
+            "1"
+            {
+                "name"      "BM space"
+				"tall"		"8"
                 "antialias" "0"
             }
         }
@@ -3170,6 +3178,16 @@ Scheme
             }
         }
         
+        "VCR_OSD_Mono8"
+        {
+            "1"
+            {
+                "name"      "VCR OSD Mono"
+				"tall"		"8"
+                "antialias" "0"
+            }
+        }
+        
         "VCR_OSD_Mono12"
         {
             "1"
@@ -3227,6 +3245,16 @@ Scheme
                 "name"      "VCR OSD Mono"
 				"tall"		"64"
                 "antialias" "0"
+            }
+        }
+        
+        "Skip_Std_B8"
+        {
+            "1"
+            {
+                "name"      "Fot-Skip Std"
+				"tall"		"8"
+                "antialias" "1"
             }
         }
         
@@ -3290,6 +3318,16 @@ Scheme
             }
         }
         
+        "PerSPire8"
+        {
+            "1"
+            {
+                "name"      "PerSPire"
+				"tall"		"8"
+                "antialias" "0"
+            }
+        }
+        
         "PerSPire12"
         {
             "1"
@@ -3350,6 +3388,16 @@ Scheme
             }
         }
         
+        "Rodin_Pro8"
+        {
+            "1"
+            {
+                "name"      "FOT-Rodin Pro"
+				"tall"		"8"
+                "antialias" "1"
+            }
+        }
+        
         "Rodin_Pro12"
         {
             "1"
@@ -3406,6 +3454,16 @@ Scheme
             {
                 "name"      "FOT-Rodin Pro"
 				"tall"		"64"
+                "antialias" "1"
+            }
+        }
+        
+        "NewRodin_Pro8"
+        {
+            "1"
+            {
+                "name"      "FOT-NewRodin Pro"
+				"tall"		"8"
                 "antialias" "1"
             }
         }

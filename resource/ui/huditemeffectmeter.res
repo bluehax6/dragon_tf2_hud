@@ -1,0 +1,91 @@
+"Resource/UI/HudItemEffectMeter.res"
+{
+	HudItemEffectMeter
+	{
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"r174"
+		"ypos"			"r100"
+		"wide"	        "250"
+		"tall"	        "120"
+		"MeterFG"		"White"
+		"MeterBG"		"TransparentBlack"
+	}
+								
+	"ItemBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ChargeBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"160"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/white"
+        "scaleImage"    "1"
+	}
+	
+	"ItemEffectMeterBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"160"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"		    "../vgui/replay/thumbnails/gray"
+        "scaleImage"    "1"
+		"teambg_1"		"../vgui/replay/thumbnails/gray"
+		"teambg_2"		"../vgui/replay/thumbnails/red"
+		"teambg_3"		"../vgui/replay/thumbnails/blue"	
+	}
+	
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"			        "37"
+		"ypos"			        "7"
+		"zpos"			        "6"
+		"wide"			        "140"
+		"tall"			        "18"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_Ball"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Skip_Std_B16"
+		"fgcolor_override"		"White"
+	}
+
+	"ItemEffectMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"xpos"			"35"
+		"ypos"			"25"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"8"		
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"fgcolor_override"		"White"
+		"bgcolor_override"		"TransparentBlack"
+	}					
+}

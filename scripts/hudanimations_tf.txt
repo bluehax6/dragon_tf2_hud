@@ -208,10 +208,6 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
-	Animate	PlayerStatusHealthConsoleFlashWhite 	Alpha		"255"	                    Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueBG 	    fgcolor		"MonitorDarkerWhite"	Linear 0.0 0.0
-	Animate	PlayerStatusHealthValue 	    fgcolor		"MonitorWhite"	    Linear 0.0 0.0
-	Animate	PlayerStatusHealthZeros   	    fgcolor		"MonitorWhite"	    Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -226,10 +222,6 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate	PlayerStatusHealthConsoleFlashWhite 	Alpha		"0"			                Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueBG 	    fgcolor		"MonitorDarkerGreen"			Linear 0.0 0.0
-	Animate	PlayerStatusHealthValue 	    fgcolor		"MonitorGreen"			    Linear 0.0 0.0
-	Animate	PlayerStatusHealthZeros   	    fgcolor		"MonitorGreen"			    Linear 0.0 0.0
 }
 
 //===========================================
@@ -237,17 +229,12 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"	                    Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			                Linear 0.125 0.075
-	Animate	PlayerStatusHealthConsoleFlashRed 	Alpha		"255"	                    Linear 0.0 0.0
-	Animate	PlayerStatusHealthConsoleFlashRed 	Alpha		"0"			                Linear 0.125 0.0
-	Animate	PlayerStatusHealthValueBG 	    fgcolor		"MonitorDarkerRed"	        Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueBG 	    fgcolor		"MonitorDarkerGreen"			Linear 0.125 0.0
-	Animate	PlayerStatusHealthValue 	    fgcolor		"MonitorRed"	        	Linear 0.0 0.0
-	Animate	PlayerStatusHealthValue 	    fgcolor		"MonitorGreen"			    Linear 0.125 0.0
-	Animate	PlayerStatusHealthZeros   	    fgcolor		"MonitorRed"	        	Linear 0.0 0.0
-	Animate	PlayerStatusHealthZeros   	    fgcolor		"MonitorGreen"			    Linear 0.125 0.0
-	RunEvent HudHealthDyingPulseLoop	    0.25
+    SetVisible PlayerStatusHealthFrown                  "1"         0.0
+    SetVisible PlayerStatusHealthSmile                  "0"         0.0
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	
+	RunEvent HudHealthDyingPulseLoop	0.25
 }
 
 // call to loop HudHealthDyingPulse
@@ -260,38 +247,16 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-	Animate	PlayerStatusHealthConsoleFlashRed 	Alpha		"0"			                Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueBG 	    fgcolor		"MonitorDarkerGreen"			Linear 0.0 0.0
-	Animate	PlayerStatusHealthValue 	    fgcolor		"MonitorGreen"			    Linear 0.0 0.0
-	Animate	PlayerStatusHealthZeros   	    fgcolor		"MonitorGreen"			    Linear 0.0 0.0
+    SetVisible PlayerStatusHealthFrown                  "0"         0.0
+    SetVisible PlayerStatusHealthSmile                  "1"         0.0
 }
 
 //===========================================
 
 event HudLowAmmoPulse
 {
-    Animate HudWeaponLowAmmoImage       Alpha       "255"	                    Linear 0.0 0.075
-    Animate HudWeaponLowAmmoImage       Alpha       "0"	                        Linear 0.125 0.075
-    Animate AmmoConsoleFlash            Alpha       "255"	                    Linear 0.0 0.0
-    Animate AmmoConsoleFlash            Alpha       "0"	                        Linear 0.125 0.0
-    Animate AmmoInClipShadow            fgcolor     "MonitorDarkerRed"	        Linear 0.0 0.0
-    Animate AmmoInClipShadow            fgcolor     "MonitorDarkerGreen"	    Linear 0.125 0.0
-    Animate AmmoInReserveShadow         fgcolor     "MonitorDarkerRed"	        Linear 0.0 0.0
-    Animate AmmoInReserveShadow         fgcolor     "MonitorDarkerGreen"	    Linear 0.125 0.0
-    Animate AmmoNoClipShadow            fgcolor     "MonitorDarkerRed"	        Linear 0.0 0.0
-    Animate AmmoNoClipShadow            fgcolor     "MonitorDarkerGreen"	    Linear 0.125 0.0
-    Animate AmmoInClip                  fgcolor     "MonitorRed"	            Linear 0.0 0.0
-    Animate AmmoInClip                  fgcolor     "MonitorGreen"	            Linear 0.125 0.0
-    Animate AmmoInReserve               fgcolor     "MonitorRed"	            Linear 0.0 0.0
-    Animate AmmoInReserve               fgcolor     "MonitorGreen"	            Linear 0.125 0.0
-    Animate AmmoNoClip                  fgcolor     "MonitorRed"	            Linear 0.0 0.0
-    Animate AmmoNoClip                  fgcolor     "MonitorGreen"	            Linear 0.125 0.0
-    Animate AmmoZeros1                  fgcolor     "MonitorRed"	            Linear 0.0 0.0
-    Animate AmmoZeros1                  fgcolor     "MonitorGreen"	            Linear 0.125 0.0
-    Animate AmmoZeros2                  fgcolor     "MonitorRed"	            Linear 0.0 0.0
-    Animate AmmoZeros2                  fgcolor     "MonitorGreen"	            Linear 0.125 0.0
-    Animate AmmoZeros3                  fgcolor     "MonitorRed"	            Linear 0.0 0.0
-    Animate AmmoZeros3                  fgcolor     "MonitorGreen"	            Linear 0.125 0.0
+	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
+	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -306,17 +271,6 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
-    Animate HudWeaponLowAmmoImage       Alpha       "0"             	        Linear 0.0 0.0
-    Animate AmmoConsoleFlash            Alpha       "0"	                        Linear 0.0 0.0
-    Animate AmmoInClipShadow            fgcolor     "MonitorDarkerGreen"	    Linear 0.0 0.0
-    Animate AmmoInReserveShadow         fgcolor     "MonitorDarkerGreen"	    Linear 0.0 0.0
-    Animate AmmoNoClipShadow            fgcolor     "MonitorDarkerGreen"	    Linear 0.0 0.0
-    Animate AmmoInClip                  fgcolor     "MonitorGreen"	            Linear 0.0 0.0
-    Animate AmmoInReserve               fgcolor     "MonitorGreen"	            Linear 0.0 0.0
-    Animate AmmoNoClip                  fgcolor     "MonitorGreen"	            Linear 0.0 0.0
-    Animate AmmoZeros1                  fgcolor     "MonitorGreen"	            Linear 0.0 0.0
-    Animate AmmoZeros2                  fgcolor     "MonitorGreen"	            Linear 0.0 0.0
-    Animate AmmoZeros3                  fgcolor     "MonitorGreen"	            Linear 0.0 0.0
 }
 
 //===========================================
@@ -397,7 +351,7 @@ event HudSpyDisguiseChanged
 
 event HudSpyDisguiseHide
 {
-	Animate PlayerStatusSpyOutlineImage		Position	"3 413"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Position	"9 r88"			Linear 0.0 0.2
 	Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Linear 0.0 0.2
 	
 	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
@@ -474,28 +428,11 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-
-	Animate	IndividualChargesLabel 	FgColor		"MonitorWhite"		Linear 0.0 0.0
-	Animate	IndividualChargesLabel 	FgColor		"MonitorGreen"		Linear 0.3 0.0
-	Animate	ChargeLabel 	FgColor		"MonitorWhite"		Linear 0.0 0.0
-	Animate	ChargeLabel 	FgColor		"MonitorGreen"		Linear 0.3 0.0
-	Animate	UberConsoleFlash 	Alpha	"255"	            Linear 0.0 0.0
-	Animate	UberConsoleFlash 	Alpha	"0"	                Linear 0.3 0.0
-	Animate	ChargeLabelBG 	FgColor		"MonitorDarkerWhite"	Linear 0.0 0.0
-	Animate	ChargeLabelBG 	FgColor		"MonitorDarkerGreen"	Linear 0.3 0.0
-	Animate	ChargeLabelZeros 	FgColor	"MonitorWhite"		Linear 0.0 0.0
-	Animate	ChargeLabelZeros 	FgColor	"MonitorGreen"		Linear 0.3 0.0
-	Animate	ChargeMeter 	FgColor		"MonitorWhite"		Linear 0.0 0.0
-	Animate	ChargeMeter 	FgColor		"MonitorGreen"		Linear 0.3 0.0
-	Animate	ChargeMeter 	BgColor		"MonitorDarkWhite"	Linear 0.0 0.0
-	Animate	ChargeMeter 	BgColor		"MonitorDarkGreen"	Linear 0.3 0.0
-	Animate	ChargeMeter5 	BgColor		"MonitorWhite"	    Linear 0.0 0.0
-	Animate	ChargeMeter5 	BgColor		"MonitorGreen"	    Linear 0.3 0.0
-    SetVisible ChargeMeter5             1                   0.0
-    SetVisible ChargeMeter1             0                   0.0
-    SetVisible ChargeMeter2             0                   0.0
-    SetVisible ChargeMeter3             0                   0.0
-    SetVisible ChargeMeter4             0                   0.0
+	Animate	ChargeLabel 	FgColor		"White"		    Linear 0.0 0.2
+	Animate	ChargeLabel 	FgColor		"HUDSpectatorSolid"		Linear 0.3 0.2
+	
+	Animate	ChargeMeter 	FgColor		"White"		    Linear 0.0 0.2
+	Animate	ChargeMeter 	FgColor		"HUDSpectatorSolid"		Linear 0.3 0.2
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -511,34 +448,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"MonitorGreen"		Linear 0.0 0.0
-	Animate	IndividualChargesLabel 	FgColor		"MonitorGreen"		Linear 0.0 0.0
-	Animate	UberConsoleFlash 	Alpha	"0"	                Linear 0.0 0.0
-	Animate	ChargeLabelBG 	FgColor		"MonitorDarkerGreen"	Linear 0.0 0.0
-	Animate	ChargeLabelZeros 	FgColor	"MonitorGreen"		Linear 0.0 0.0
-	Animate	ChargeMeter 	FgColor		"MonitorGreen"		Linear 0.0 0.0
-	Animate	ChargeMeter 	BgColor		"MonitorDarkGreen"		Linear 0.0 0.0
-    SetVisible ChargeMeter1             1                   0.0
-    SetVisible ChargeMeter2             1                   0.0
-    SetVisible ChargeMeter3             1                   0.0
-    SetVisible ChargeMeter4             1                   0.0
-    SetVisible ChargeMeter5             0                   0.0
-
-}
-
-event ShowStuff
-{
-    SetVisible HudWeaponAmmo            1                   0.0
-	Animate	ChargeMeter1 	FgColor		"MonitorGreen"		Linear 0.0 0.0
-	Animate	ChargeMeter2 	FgColor		"MonitorGreen"		Linear 0.0 0.0
-	Animate	ChargeMeter3 	FgColor		"MonitorGreen"		Linear 0.0 0.0
-	Animate	ChargeMeter4 	FgColor		"MonitorGreen"		Linear 0.0 0.0
-    RunEvent ShowStuffLoop 0.001
-}
-
-event ShowStuffLoop
-{
-    RunEvent ShowStuff 0.0
+	Animate	ChargeLabel 	FgColor		"White"		Linear 0.0 0.0
+	Animate	ChargeMeter 	FgColor		"White"		Linear 0.0 0.0
 }
 
 //====================================
@@ -1517,7 +1428,8 @@ event CompetitiveGame_LowerChatWindow
 event CompetitiveGame_RestoreChatWindow
 {
 	Animate HudChat ypos 275 Accel 0 0
-    RunEvent ShowStuff 0.0
+    SetVisible PipesPresentPanel 0 0
+    SetVisible NoPipesPresentPanel 1 0
 }
 
 event HudTournament_MoveChatWindow

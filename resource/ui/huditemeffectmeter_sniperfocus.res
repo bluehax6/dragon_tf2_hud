@@ -1,0 +1,90 @@
+"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+{
+	HudItemEffectMeter
+	{
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"	        "r260"
+		"ypos"	        "r46"
+		"wide"			"250"
+		"tall"			"120"
+		"MeterFG"		"White"
+		"MeterBG"		"TransparentBlack"
+	}
+	
+	"ItemEffectMeterBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"xpos"			"25"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"60"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/gray"
+        "scaleImage"    "1"
+		"teambg_1"		"../vgui/replay/thumbnails/gray"
+		"teambg_2"		"../vgui/replay/thumbnails/red"
+		"teambg_3"		"../vgui/replay/thumbnails/blue"		
+	}
+	
+	"FocusBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FocusBG"
+		"xpos"			"25"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"60"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/white"
+        "scaleImage"    "1"	
+	}
+	
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"25"
+		"ypos"					"22"
+		"zpos"					"2"
+		"wide"					"61"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_KillStreak"
+		"textAlignment"			"north"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Skip_Std_B12"
+	}
+
+	"ItemEffectMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"xpos"					"35"
+		"ypos"					"12"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"8"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"fgcolor_override"		"White"
+		"bgcolor_override"		"TransparentBlack"
+	}				
+}
