@@ -3037,76 +3037,6 @@ Scheme
 		}
         
         // custom fonts
-        
-        "Blocks8"
-        {
-            "1"
-            {
-                "name"      "Blocks"
-				"tall"		"8"
-                "antialias" "0"
-            }
-        }
-        
-        "Blocks12"
-        {
-            "1"
-            {
-                "name"      "Blocks"
-				"tall"		"12"
-                "antialias" "0"
-            }
-        }
-        
-        "Blocks16"
-        {
-            "1"
-            {
-                "name"      "Blocks"
-				"tall"		"16"
-                "antialias" "0"
-            }
-        }
-        
-        "Blocks24"
-        {
-            "1"
-            {
-                "name"      "Blocks"
-				"tall"		"24"
-                "antialias" "0"
-            }
-        }
-        
-        "Blocks32"
-        {
-            "1"
-            {
-                "name"      "Blocks"
-				"tall"		"32"
-                "antialias" "0"
-            }
-        }
-        
-        "Blocks48"
-        {
-            "1"
-            {
-                "name"      "Blocks"
-				"tall"		"48"
-                "antialias" "0"
-            }
-        }
-        
-        "Blocks64"
-        {
-            "1"
-            {
-                "name"      "Blocks"
-				"tall"		"64"
-                "antialias" "0"
-            }
-        }
 
         "BM_Space8"
         {
@@ -6347,7 +6277,6 @@ Scheme
 		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
-		"18"		"resource/fonts/blocks.ttf"
         "20"
         {
             "font" "resource/fonts/bmspace.ttf"
@@ -6370,12 +6299,12 @@ Scheme
         }
         "24"
         {
-            "font" "resource/fonts/rodin-pro/FOT-Rodin Pro B.otf"
+            "font" "resource/fonts/FOT-Rodin Pro B.otf"
             "name" "FOT-Rodin Pro"
         }
         "25"
         {
-            "font" "resource/fonts/newrodin-pro/FOT-NewRodin Pro B.otf"
+            "font" "resource/fonts/FOT-NewRodin Pro B.otf"
             "name" "FOT-NewRodin Pro"
         }
 	}
