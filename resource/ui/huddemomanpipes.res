@@ -51,7 +51,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Skip_Std_B16"
+		"font"					"WednesdayHoliday16"
         "fgcolor_override"      "White"
 	}
 
@@ -73,7 +73,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
         "fgcolor_override"               "White"
-        "bgcolor_override"               "TransparentBlack"
+        "bgcolor_override"               "TransparentGray"
 	}				
 		
 	"PipesPresentPanel"
@@ -108,7 +108,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"50"
-			"ypos"			"20"
+			"ypos"			"23"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -121,7 +121,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"BM_Space16"
+			"font"			"WednesdayHoliday24"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -178,7 +178,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"50"
-			"ypos"			"20"
+			"ypos"			"23"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -191,7 +191,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"BM_Space16"
+			"font"			"WednesdayHoliday24"
 		}
 		"NumPipesLabelDropshadow"
 		{

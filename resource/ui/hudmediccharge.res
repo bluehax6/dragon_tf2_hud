@@ -37,7 +37,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"10"
-		"ypos"			"12"
+		"ypos"			"16"
 		"zpos"			"6"
 		"wide"			"140"
 		"tall"			"18"
@@ -50,7 +50,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Skip_Std_B16"
+		"font"			"WednesdayHoliday16"
 		"fgcolor"		"White"
 	}
 
@@ -59,7 +59,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"20"
-		"ypos"			"12"
+		"ypos"			"16"
 		"zpos"			"6"
 		"wide"			"130"
 		"tall"			"18"
@@ -72,7 +72,7 @@
 		"textAlignment"	"south"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Skip_Std_B16"
+		"font"			"WednesdayHoliday16"
 		"fgcolor"		"White"
 	}
 	
@@ -94,7 +94,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"		"White"
-		"bgcolor_override"		"TransparentBlack"
+		"bgcolor_override"		"TransparentGray"
 	}		
 
 	"ChargeMeter1"
@@ -115,7 +115,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"		"White"
-		"bgcolor_override"		"TransparentBlack"
+		"bgcolor_override"		"TransparentGray"
 	}
 
 	"ChargeMeter2"
@@ -136,7 +136,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"		"White"
-		"bgcolor_override"		"TransparentBlack"
+		"bgcolor_override"		"TransparentGray"
 	}
 
 	"ChargeMeter3"
@@ -157,7 +157,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"		"White"
-		"bgcolor_override"		"TransparentBlack"
+		"bgcolor_override"		"TransparentGray"
 	}
 
 	"ChargeMeter4"
@@ -178,7 +178,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"		"White"
-		"bgcolor_override"		"TransparentBlack"
+		"bgcolor_override"		"TransparentGray"
 	}
 	
 	"HealthClusterIcon"

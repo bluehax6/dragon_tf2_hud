@@ -10,7 +10,7 @@
 		"wide"			"250"
 		"tall"			"120"
 		"MeterFG"		"White"
-		"MeterBG"		"TransparentBlack"
+		"MeterBG"		"TransparentGray"
 	}
 	
 	"ItemEffectMeterBG"
@@ -64,7 +64,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Skip_Std_B12"
+		"font"					"WednesdayHoliday16"
 	}
 
 	"ItemEffectMeter"
@@ -85,6 +85,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor_override"		"White"
-		"bgcolor_override"		"TransparentBlack"
+		"bgcolor_override"		"TransparentGray"
 	}				
 }

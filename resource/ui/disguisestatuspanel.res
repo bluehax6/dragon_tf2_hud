@@ -67,9 +67,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"bm_space12"
-		"xpos"			"36"
-		"ypos"			"4"
+		"font"			"WednesdayHoliday16"
+		"xpos"			"32"
+		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"24"
@@ -88,9 +88,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"bm_space8"
-		"xpos"			"36"
-		"ypos"			"15"
+		"font"			"WednesdayHoliday12"
+		"xpos"			"32"
+		"ypos"			"12"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"24"
@@ -118,9 +118,9 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"VCR_OSD_Mono12"
+		"TFFont"		"WednesdayHoliday12"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"		"MonitorGreen"
+		"TextColor"		"White"
 	}	
 	
 }

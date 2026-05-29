@@ -212,6 +212,8 @@ Scheme
         
         //custom colors
 		"HUDSpectatorSolid"		"124 124 124 255"
+		"TransparentGray"	"63 63 63 196"
+        "HUDGray"           "51 48 46 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -3107,74 +3109,74 @@ Scheme
                 "antialias" "0"
             }
         }
-        
-        "VCR_OSD_Mono8"
+
+        "WednesdayHoliday8"
         {
             "1"
             {
-                "name"      "VCR OSD Mono"
+                "name"      "WednesdayHoliday"
 				"tall"		"8"
-                "antialias" "0"
+                "antialias" "1"
             }
         }
-        
-        "VCR_OSD_Mono12"
+
+        "WednesdayHoliday12"
         {
             "1"
             {
-                "name"      "VCR OSD Mono"
+                "name"      "WednesdayHoliday"
 				"tall"		"12"
-                "antialias" "0"
+                "antialias" "1"
             }
         }
-        
-        "VCR_OSD_Mono16"
+
+        "WednesdayHoliday16"
         {
             "1"
             {
-                "name"      "VCR OSD Mono"
+                "name"      "WednesdayHoliday"
 				"tall"		"16"
-                "antialias" "0"
+                "antialias" "1"
             }
         }
-        
-        "VCR_OSD_Mono24"
+
+        "WednesdayHoliday24"
         {
             "1"
             {
-                "name"      "VCR OSD Mono"
+                "name"      "WednesdayHoliday"
 				"tall"		"24"
-                "antialias" "0"
+                "antialias" "1"
             }
         }
-        
-        "VCR_OSD_Mono32"
+
+        "WednesdayHoliday32"
         {
             "1"
             {
-                "name"      "VCR OSD Mono"
+                "name"      "WednesdayHoliday"
 				"tall"		"32"
-                "antialias" "0"
+                "antialias" "1"
             }
         }
-        
-        "VCR_OSD_Mono48"
+
+        "WednesdayHoliday48"
         {
             "1"
             {
-                "name"      "VCR OSD Mono"
+                "name"      "WednesdayHoliday"
 				"tall"		"48"
-                "antialias" "0"
+                "antialias" "1"
             }
         }
-        
-        "VCR_OSD_Mono64"
+
+        "WednesdayHoliday64"
         {
             "1"
             {
-                "name"      "VCR OSD Mono"
+                "name"      "WednesdayHoliday"
 				"tall"		"64"
-                "antialias" "0"
+                "antialias" "1"
             }
         }
         
@@ -3245,76 +3247,6 @@ Scheme
                 "name"      "Fot-Skip Std"
 				"tall"		"64"
                 "antialias" "1"
-            }
-        }
-        
-        "PerSPire8"
-        {
-            "1"
-            {
-                "name"      "PerSPire"
-				"tall"		"8"
-                "antialias" "0"
-            }
-        }
-        
-        "PerSPire12"
-        {
-            "1"
-            {
-                "name"      "PerSPire"
-				"tall"		"12"
-                "antialias" "0"
-            }
-        }
-        
-        "PerSPire16"
-        {
-            "1"
-            {
-                "name"      "PerSPire"
-				"tall"		"16"
-                "antialias" "0"
-            }
-        }
-        
-        "PerSPire24"
-        {
-            "1"
-            {
-                "name"      "PerSPire"
-				"tall"		"24"
-                "antialias" "0"
-            }
-        }
-        
-        "PerSPire32"
-        {
-            "1"
-            {
-                "name"      "PerSPire"
-				"tall"		"32"
-                "antialias" "0"
-            }
-        }
-        
-        "PerSPire48"
-        {
-            "1"
-            {
-                "name"      "PerSPire"
-				"tall"		"48"
-                "antialias" "0"
-            }
-        }
-        
-        "PerSPire64"
-        {
-            "1"
-            {
-                "name"      "PerSPire"
-				"tall"		"64"
-                "antialias" "0"
             }
         }
         
@@ -6284,8 +6216,8 @@ Scheme
         }
         "21"
         {
-            "font" "resource/fonts/vcr_osd_mono_1.001.ttf"
-            "name" "VCR OSD Mono"
+            "font" "resource/fonts/wednesday_holiday.otf"
+            "name" "WednesdayHoliday"
         }
         "22"
         {
@@ -6294,15 +6226,10 @@ Scheme
         }
         "23"
         {
-            "font" "resource/fonts/perspire.ttf"
-            "name" "PerSPire"
-        }
-        "24"
-        {
             "font" "resource/fonts/FOT-Rodin Pro B.otf"
             "name" "FOT-Rodin Pro"
         }
-        "25"
+        "24"
         {
             "font" "resource/fonts/FOT-NewRodin Pro B.otf"
             "name" "FOT-NewRodin Pro"

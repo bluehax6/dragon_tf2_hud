@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"BM_Space32"
+		"font"			"WednesdayHoliday48"
 		"fgcolor"		"White"
-		"xpos"			"-4"
-		"ypos"			"11"
+		"xpos"			"-2"
+		"ypos"			"17"
 		"zpos"			"7"
 		"wide"			"96"
 		"tall"			"40"
@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"Blocks48"
+		"font"			"WednesdayHoliday48"
 		"xpos"			"-9999"
 		"ypos"			"-9999"
 		"zpos"			"8"
@@ -37,10 +37,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"BM_Space16"
+		"font"			"WednesdayHoliday24"
 		"fgcolor"		"White"
-		"xpos"			"92"
-		"ypos"			"6"
+		"xpos"			"96"
+		"ypos"			"9"
 		"zpos"			"7"
 		"wide"			"48"
 		"tall"			"40"
@@ -53,7 +53,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"Blocks24"
+		"font"			"WednesdayHoliday24"
 		"xpos"			"-9999"
 		"ypos"			"-9999"
 		"zpos"			"8"
@@ -68,10 +68,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"BM_Space32"
+		"font"			"WednesdayHoliday48"
 		"fgcolor"		"White"
-		"xpos"			"6"
-		"ypos"			"11"
+		"xpos"			"24"
+		"ypos"			"17"
 		"zpos"			"7"
 		"wide"			"144"
 		"tall"			"40"
@@ -85,7 +85,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"Blocks48"
+		"font"			"WednesdayHoliday48"
 		"xpos"			"-9999"
 		"ypos"			"-9999"
 		"zpos"			"8"
@@ -141,5 +141,19 @@
 		"Visible"		"0"
 		"Enabled"		"1"
         "fillcolor"     "241 44 9 255"
+	}
+	"AmmoIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoIcon"
+		"xpos"			"24"
+		"ypos"			"22"
+		"zpos"			"7"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/ammo"
+        "scaleImage"    "1"
 	}
 }

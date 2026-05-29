@@ -10,7 +10,7 @@
 		"wide"			"250"
 		"tall"			"120"
 		"MeterFG"		"White"
-		"MeterBG"		"TransparentBlack"
+		"MeterBG"		"TransparentGray"
 	}
 	
 	"ItemEffectMeterBG"
@@ -63,7 +63,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Skip_Std_B8"
+		"font"					"WednesdayHoliday12"
 	}
 
 	"ItemEffectMeter"
@@ -90,7 +90,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"25"
-		"ypos"					"5"
+		"ypos"					"8"
 		"zpos"					"4"
 		"wide"					"40"
 		"tall"					"20"	
@@ -102,7 +102,7 @@
 		"textAlignment"			"south"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"BM_Space16"
+		"font"					"WednesdayHoliday24"
 		"fgcolor"				"White"
 	}
 }

@@ -10,7 +10,7 @@
 		"wide"	        "250"
 		"tall"	        "120"
 		"MeterFG"		"White"
-		"MeterBG"		"TransparentBlack"
+		"MeterBG"		"TransparentGray"
 	}
 								
 	"ItemBG"
@@ -64,7 +64,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Skip_Std_B16"
+		"font"					"WednesdayHoliday16"
 		"fgcolor_override"		"White"
 	}
 
@@ -86,6 +86,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor_override"		"White"
-		"bgcolor_override"		"TransparentBlack"
+		"bgcolor_override"		"TransparentGray"
 	}					
 }

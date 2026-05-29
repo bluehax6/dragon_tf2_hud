@@ -8,7 +8,7 @@
 		"xpos"	"0"
 		"ypos"	"0"
 		"wide"	"f0"
-		"tall"	"480"
+		"tall"	"f0"
 	}
 
 	HudWeaponAmmo
@@ -30,7 +30,7 @@
 		"xpos"	"0"
 		"ypos"	"0"
 		"wide"	"f0"
-		"tall"	"480"
+		"tall"	"f0"
 	}	
 	
 	HudKothTimeStatus
@@ -79,14 +79,14 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r88"
-		"ypos"			"r42"
+		"xpos"			"r79"
+		"ypos"			"r39"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
-		"MeterBG"		"TransparentBlack"
+		"MeterBG"		"TransparentGray"
 	}	
 
 	HudBowCharge
@@ -103,7 +103,7 @@
         "visible"       "0"
         "enabled"       "0"
 		"MeterFG"		"White"
-		"MeterBG"		"TransparentBlack"
+		"MeterBG"		"TransparentGray"
 	}
 
 	HudFlameRocketCharge
@@ -145,7 +145,7 @@
 		"xpos"	"0"
 		"wide"	"f0"
 		"ypos" 	"0"
-		"tall"	"480"
+		"tall"	"f0"
 		"RightMargin" "0"
 		"RightMargin_hidef" "32"
 		"RightMargin_lodef" "38"
@@ -181,13 +181,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"			        "r174"
+		"ypos"			        "r160"
+		"wide"					"250"
+		"tall"  				"120"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -196,10 +193,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
+		"xpos"					"222"
+		"ypos"					"r119"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -213,7 +208,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
-		"tall"					"480"
+		"tall"					"f0"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -225,7 +220,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"
+		"xpos"		"12"
 		"ypos"		"r28"
 		"wide"		"500"
 		"tall"		"200"
@@ -297,8 +292,8 @@
 		"ypos"		"0"	[$WIN32]
 		"xpos"		"32"	[$X360]
 		"ypos"		"16"	[$X360]		
-		"wide"		"640"
-		"tall"		"480"
+		"wide"		"f0"
+		"tall"		"f0"
 		
 		"PaintBackgroundType"	"2"
 	}
@@ -314,8 +309,8 @@
 		"ypos"		"0"
 		"ypos_hidef"		"16"
 		"ypos_lodef"		"25"
-		"wide"		"640"
-		"tall"		"480"
+		"wide"		"f0"
+		"tall"		"f0"
 		
 		"PaintBackgroundType"	"2"
 	}
@@ -329,7 +324,7 @@
 		"ypos"		"0"
 		"zpos"		"1"
 		"wide"		"f0"
-		"tall"		"480"
+		"tall"		"f0"
 		
 		"PaintBackgroundType"	"2"
 	}
@@ -470,8 +465,8 @@
 		"fieldName" "HudCrosshair"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 
 	HudDeathNotice
@@ -511,8 +506,8 @@
 		"fieldName" "HudVehicle"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 
 	CVProfPanel
@@ -520,8 +515,8 @@
 		"fieldName" "CVProfPanel"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 
 	ScorePanel
@@ -529,8 +524,8 @@
 		"fieldName" "ScorePanel"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 
 	HudTrain
@@ -538,8 +533,8 @@
 		"fieldName" "HudTrain"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 
 	HudMOTD
@@ -547,8 +542,8 @@
 		"fieldName" "HudMOTD"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 
 	HudMessage
@@ -557,7 +552,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"wide"	 "f0"
-		"tall"	 "480"
+		"tall"	 "f0"
 	}
 
 	HudMenu
@@ -565,8 +560,8 @@
 		"fieldName" "HudMenu"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 		"zpos" "1"
 
 		"TextFont"				"Default"
@@ -579,8 +574,8 @@
 		"fieldName" "HudSpellMenu"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 		"zpos" 	"2"
 		"xpos"			"130"
 		"ypos"			"r61"
@@ -618,7 +613,7 @@
 		"enabled" "0"
 		"xpos"	 "r640"	[$WIN32]
 		"xpos"	 "r672"	[$X360]
-		"wide"	 "640"
+		"wide"	 "f0"
 		"tall"	 "330"
 		"history_gap" "55"
 	}
@@ -628,8 +623,8 @@
 		"fieldName" "HudGeiger"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 
 	HUDQuickInfo
@@ -637,8 +632,8 @@
 		"fieldName" "HUDQuickInfo"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 
 	HudWeapon
@@ -646,32 +641,32 @@
 		"fieldName" "HudWeapon"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 	HudAnimationInfo
 	{
 		"fieldName" "HudAnimationInfo"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 	CBudgetPanel
 	{
 		"fieldName" "CBudgetPanel"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 	CTextureBudgetPanel
 	{
 		"fieldName" "CTextureBudgetPanel"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 
 	HudPredictionDump
@@ -701,8 +696,8 @@
 		"fieldName" "HudScope"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 	
 	HudScopeCharge
@@ -801,8 +796,8 @@
 		"enabled" "1"
 		"xpos"	"0"
 		"ypos"	"0"
-		"wide"	"640"
-		"tall"	"480"
+		"wide"	"f0"
+		"tall"	"f0"
 	}
 	
 	VguiScreenCursor
@@ -810,8 +805,8 @@
 		"fieldName" "VguiScreenCursor"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 
 	HudControlPointIcons
@@ -909,7 +904,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
-		"tall"					"480"
+		"tall"					"f0"
 	}
 
 	FreezePanelCallout
@@ -1156,7 +1151,7 @@
 		"enabled"				"1"
 		"xpos"					"c-320"
 		"ypos"					"300"
-		"wide"					"640"
+		"wide"					"f0"
 		"tall"					"100"
 	}
 
@@ -1268,8 +1263,8 @@
 		"fieldName" "HudTFCrosshair"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "f0"
+		"tall"	 "f0"
 	}
 	
 	ItemQuickSwitchPanel
@@ -1341,8 +1336,8 @@
 		"fieldName"		"CHudVote"
 		"xpos"			"0"			
 		"ypos"			"0"
-		"wide"			"640"
-		"tall"			"480"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
@@ -1366,8 +1361,8 @@
 		"fieldName"		"CTFStreakNotice"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"640"
-		"tall"			"480"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
@@ -1420,7 +1415,7 @@
 		"xpos"	"0"
 		"ypos"	"0"
 		"wide"	"f0"
-		"tall"	"480"
+		"tall"	"f0"
 	}
 
 	"QuestNotificationPanel"

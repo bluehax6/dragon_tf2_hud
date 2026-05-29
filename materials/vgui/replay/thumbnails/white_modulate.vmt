@@ -1,0 +1,5 @@
+"Modulate"
+{
+	"$baseTexture"			"vgui\replay\thumbnails\white_modulate"
+    "$mod2x"                "1"
+}
