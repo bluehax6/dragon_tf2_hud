@@ -30,21 +30,6 @@
 		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
 	}
-
-	"ExitBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ExitBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"150"
-		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/white"
-        "scaleImage"    "1"
-	}
 	
 	"Icon_Teleport_Exit"
 	{

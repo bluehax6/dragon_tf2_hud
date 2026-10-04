@@ -30,21 +30,6 @@
 		"teambg_2"		"../vgui/replay/thumbnails/red"
 		"teambg_3"		"../vgui/replay/thumbnails/blue"		
 	}
-	
-	"HeadsBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"OrgansBG"
-		"xpos"			"25"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/white"
-        "scaleImage"    "1"	
-	}
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"

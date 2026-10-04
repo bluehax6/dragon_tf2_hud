@@ -48,21 +48,6 @@
 		"teambg_3"		"../vgui/replay/thumbnails/blue"
 	}
 
-	"DisguiseBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"DisguiseBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"150"
-		"tall"			"28"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/white"
-        "scaleImage"    "1"
-	}
-
 	"DisguiseNameLabel"
 	{	
 		"ControlName"	"Label"

@@ -1,19 +1,5 @@
 "Resource/UI/HudMedicCharge.res"
-{										
-	"ChargeBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ChargeBG"
-		"xpos"			"0"
-		"ypos"			"5"
-		"zpos"			"-1"
-		"wide"			"160"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/white"
-        "scaleImage"    "1"
-	}
+{	
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"

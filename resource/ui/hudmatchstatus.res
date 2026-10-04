@@ -247,6 +247,48 @@
 		}
 	}
 
+	"ColonThree"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ColonThree"
+		"xpos"				"cs-10.2"
+		"ypos"				"2"
+		"zpos"				"5"
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"0"
+        "image"             "../vgui/replay/thumbnails/colonthree"
+        "scaleimage"        "1"
+
+		"proportionaltoaparent"	"1"
+
+		if_match
+		{
+			"visible"		"1"
+		}
+	}
+
+	"Skull"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Skull"
+		"xpos"				"cs+9.2"
+		"ypos"				"2"
+		"zpos"				"5"
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"0"
+        "image"             "../vgui/replay/thumbnails/skull"
+        "scaleimage"        "1"
+
+		"proportionaltoaparent"	"1"
+
+		if_match
+		{
+			"visible"		"1"
+		}
+	}
+
 	"RankUpLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -536,7 +578,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"PlayerPanelPlayerName"
+				"font"			"WednesdayHoliday8"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -546,6 +588,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
+		        "fgcolor"		"White"
 				"textAlignment"	"center"
 				"proportionaltoparent"	"1"
 			}

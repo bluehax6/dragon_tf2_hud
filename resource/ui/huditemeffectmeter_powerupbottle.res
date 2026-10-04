@@ -31,21 +31,6 @@
 		"teambg_3"		"../vgui/replay/thumbnails/blue"				
 	}
 	
-	"CanteenBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ChargeBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"160"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/white"
-        "scaleImage"    "1"
-	}
-	
 	"ItemEffectIcon"
 	{
 		"ControlName"	"CTFImagePanel"

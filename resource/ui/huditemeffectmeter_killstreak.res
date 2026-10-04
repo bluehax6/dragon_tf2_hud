@@ -30,21 +30,6 @@
 		"teambg_2"		"../vgui/replay/thumbnails/red"
 		"teambg_3"		"../vgui/replay/thumbnails/blue"
 	}
-
-	"KillstreakBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"KillstreakBG"
-		"xpos"			"25"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/white"
-        "scaleImage"    "1"
-	}
 	
 	"ItemEffectMeterLabel"
 	{

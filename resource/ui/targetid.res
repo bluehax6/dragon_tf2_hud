@@ -13,11 +13,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	    "image"			"../vgui/replay/thumbnails/gray2"
+	    "image"			"../vgui/replay/thumbnails/gray"
         "scaleImage"    "1"
-	    "teambg_1"		"../vgui/replay/thumbnails/gray2"
-	    "teambg_2"		"../vgui/replay/thumbnails/red2"
-	    "teambg_3"		"../vgui/replay/thumbnails/blue2"
+	    "teambg_1"		"../vgui/replay/thumbnails/gray"
+	    "teambg_2"		"../vgui/replay/thumbnails/red"
+	    "teambg_3"		"../vgui/replay/thumbnails/blue"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -32,7 +32,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-	    "image"		"../vgui/replay/thumbnails/blue2"
+	    "image"		"../vgui/replay/thumbnails/blue"
 	}
 	"TargetIDBG_Spec_Red"
 	{
@@ -47,7 +47,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-	    "image"		"../vgui/replay/thumbnails/red2"
+	    "image"		"../vgui/replay/thumbnails/red"
 	}
 	
 	"TargetNameLabel"
@@ -104,7 +104,7 @@
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"WednesdayHoliday12"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"		"HudOffWhite"
+		"TextColor"		"White"
 	}	
 	
 	"AmmoIcon"
@@ -133,7 +133,7 @@
 		"tall"			"8"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/colonthree"
+		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 	}
 	
@@ -235,6 +235,7 @@
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
+		"ypos"			"6"
 		"zpos"			"99"
 		"wide"			"11"
 		"tall"			"11"

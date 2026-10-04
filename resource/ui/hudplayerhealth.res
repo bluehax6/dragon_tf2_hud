@@ -73,20 +73,6 @@
 		"font"			"WednesdayHoliday24"
 		"fgcolor"		"White"
 	}
-	"PlayerStatusHealthBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBG"
-		"xpos"			"100"
-		"ypos"			"46"
-		"zpos"			"5"
-		"wide"			"86"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/white"
-        "scaleImage"    "1"
-	}
 	"PlayerStatusHealthTeamColored"
 	{
 		"ControlName"	"CTFImagePanel"

@@ -96,20 +96,6 @@
 		"textAlignment"	"south-east"		
 		"labelText"		"%Ammo%"
 		
-	}									
-	"AmmoBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"AmmoBG"
-		"xpos"			"5"
-		"ypos"			"5"
-		"zpos"			"4"
-		"wide"			"160"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/white"
-        "scaleImage"    "1"
 	}
 	"AmmoTeamColor"
 	{

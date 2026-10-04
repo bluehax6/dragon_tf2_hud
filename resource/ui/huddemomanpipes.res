@@ -18,20 +18,6 @@
 		"teambg_2"		"../vgui/replay/thumbnails/red"
 		"teambg_3"		"../vgui/replay/thumbnails/blue"			
 	}
-    "PipesBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PipesBG"
-		"xpos"			"0"
-		"ypos"			"5"
-		"zpos"			"-1"
-		"wide"			"160"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/white"
-        "scaleImage"    "1"		
-	}
 	
 	"ChargeLabel"
 	{

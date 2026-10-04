@@ -31,21 +31,6 @@
 		"teambg_3"		"../vgui/replay/thumbnails/blue"		
 	}
 	
-	"FocusBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"FocusBG"
-		"xpos"			"25"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"60"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/white"
-        "scaleImage"    "1"	
-	}
-	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"

@@ -13,21 +13,6 @@
 		"MeterBG"		"TransparentGray"
 	}
 	
-	"HeadsBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HeadsBG"
-		"xpos"			"25"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/white"
-        "scaleImage"    "1"	
-	}
-	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
