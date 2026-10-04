@@ -13,11 +13,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	    "image"			"../vgui/replay/thumbnails/gray"
+	    "image"			"../vgui/replay/thumbnails/gray2"
         "scaleImage"    "1"
-	    "teambg_1"		"../vgui/replay/thumbnails/gray"
-	    "teambg_2"		"../vgui/replay/thumbnails/red"
-	    "teambg_3"		"../vgui/replay/thumbnails/blue"
+	    "teambg_1"		"../vgui/replay/thumbnails/gray2"
+	    "teambg_2"		"../vgui/replay/thumbnails/red2"
+	    "teambg_3"		"../vgui/replay/thumbnails/blue2"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -32,7 +32,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-	    "image"		"../vgui/replay/thumbnails/blue"
+	    "image"		"../vgui/replay/thumbnails/blue2"
 	}
 	"TargetIDBG_Spec_Red"
 	{
@@ -47,7 +47,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-	    "image"		"../vgui/replay/thumbnails/red"
+	    "image"		"../vgui/replay/thumbnails/red2"
 	}
 	
 	"TargetNameLabel"

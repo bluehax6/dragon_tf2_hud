@@ -54,6 +54,19 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
+	"PlayerStatusHealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBG"
+		"xpos"			"6"
+		"ypos"			"10"
+		"zpos"			"5"
+		"wide"			"20"
+		"tall"			"11"
+		"visible"		"1"
+		"enabled"		"1"
+        "fillcolor"     "BuildMenuActive"
+	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
